@@ -1,17 +1,16 @@
 import React from 'react'
 
-export const RootLayout = ({
+export const LoginLayout = ({
   children,
 }:{children:React.ReactNode}) => {
   return (
     <html lang="en">
       <body>
-        <header style={{color:"red"}}>this is a header</header>
         {children}
-        <footer>this is a footer</footer>
+        <footer>this is only for regiser</footer>
       </body>
     </html>
   )
 }
 
-export default RootLayout
+export default LoginLayout
